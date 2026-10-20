@@ -1,6 +1,6 @@
 # Atividades de HTML e CSS — IFCE
 
-Repositório destinado às listas e atividades de HTML e desenvolvidas durante o Curso Técnico em Informática do IFCE — Campus Maranguape.
+Repositório destinado às listas e atividades de HTML e CSS desenvolvidas durante o Curso Técnico em Informática do IFCE — Campus Maranguape.
 
 As atividades deste repositório foram propostas pelo professor Thomaz Maia, como parte dos estudos de desenvolvimento web.
 
