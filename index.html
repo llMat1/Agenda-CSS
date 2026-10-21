@@ -1,77 +1,79 @@
+<!--Meu GITHUB-->
+
 <!DOCTYPE html>
 <html>
     <head>
         <title>Agenda de Eventos</title>
         <style>
             body {font-family: Arial, sans-serif; background-color: #f5f5f5;}
-            h1 {color: #1b4f72; font-size: 36px; font-weight: bold; text-align: center; font-family: "Playfair Display", serif;}
-            h2 {color: rgb(194, 127, 194); font-size: 24px;}
+            h2 {color: #8e44ad; font-size: 24px; letter-spacing: 2px;}
             p {font-size: 16px; line-height: 1.6; text-align: justify;}
             ul {font-size: 18px; line-height: 1.8;}
             a {color: #21618c;}
-            a:hover {color: #e74c3c;  }
+            a:hover {color: rgb(231, 76, 60);}
             .descricoes {background-color: #d6eaf8; text-align: center; font-size: 18px;}
-            .titulos_eventos {letter-spacing: 2px;}
-            .datas {color: red; font-weight: bold;}
-            #contatos {background-color: #d5f5e3; text-align: center;}
+            .datas {color: #c0392b; font-weight: bold;}
+            #contato {background-color: #d5f5e3; text-align: center;}
+            #titulo_principal {color: rgb(27, 80, 116); font-size: 36px; font-weight: bold; text-align: center; font-family: "Playfair Display", serif;}
+            .evento-destaque {background-color: lightblue;}
+            .evento-destaque .descricoes {color: yellowgreen; font-size: 20px; font-weight: bold;}
         </style>
     </head>
     <body>
         <main>
             <header>
-                <h1>Eventos do IFCE <i>Campus</i> Maranguape</h1>
-                <h3>Essa página tem o intuito de apresentar as informações sobre os útimos eventos no campus.</h3>
+                <h1 id="titulo_principal">Eventos do IFCE Campus Maranguape</h1>
+                <p class="descricoes">Essa página tem o intuito de apresentar as informações sobre os útimos eventos no campus.</p>
             </header>
+            
             <section>
-                <h2 class="titulos_eventos">Jogos interclasses</h2>
-                <h3>Descrição</h3>
+                <h2>Jogos interclasses</h2>
                 <p class="descricoes">Jogos de quadra que reunem todas as turmas do curso técnico integrado em 3 dias de muita emoção e diversão.</p>
-                <h3>Modalidades</h3>
+                <p>Modalidades:</p>
                 <ul>
-                    <li>Futsal</li>
-                    <li>Vôlei</li>
-                    <li>Carimba</li>
+                    <li>Futsal;</li>
+                    <li>Vôlei;</li>
+                    <li>Carimba.</li>
                 </ul>
-                <h3>Informações</h3>
-                <p class="datas">Data: <b>22/04/2026 a 24/04/2026</b></p>
-                <p>Local: <b>IFCE <i>Campus</i> Maranguape</b></p>
+                <p>Informações</p>
+                <p class="datas">Data: 22/04/2026 a 24/04/2026</p>
+                <p>Local: IFCE Campus Maranguape</p>
                 <a href="https://www.instagram.com/ed.fisica.ifcempe/">Instagram da organização</a>
             </section>
-            <section>
-                <h2 class="titulos_eventos">OFA-IFCE</h2>
-                <h3>Descrição</h3>
-                <p class="descricoes">Olímpiada organizada pelo IFCE <i>Campus</i> Maranguape com o intuito de incentivar os alunos do campus e de outras instituições a expandirem e testarem seus conhecimentos em física.</p>
+            
+            <section class="evento-destaque">
+                <h2>OFA-IFCE</h2>
+                <p class="descricoes">Olímpiada organizada pelo IFCE Campus Maranguape com o intuito de incentivar os alunos do campus e de outras instituições a expandirem e testarem seus conhecimentos em física.</p>
                 <h3>Escolaridade</h3>
                 <ul>
                     <li>Ensino fundamental;</li>
-                    <li>1° ano do Ensino Médio;</li>
-                    <li>2° ano do Ensino Médio;</li>
-                    <li>3° ano do Ensino Médio;</li>
+                    <li>Ensino Médio;</li>
                     <li>Ensino Superior.</li>
                 </ul>
-                <h3>Informações</h3>
-                <p class="datas">Data: <b>03/10/2026</b></p>
-                <p>Local: <b>IFCE <i>Campus</i> Maranguape</b></p>
+                <p>Informações</p>
+                <p class="datas">Data: 03/10/2026</p>
+                <p>Local: IFCE Campus Maranguape</p>
                 <a href="https://www.instagram.com/coi_maranguape?utm_source=ig_web_button_share_sheet&dlrf=ZDNlZDc0MzIxNw==">Instagram da organização</a>
             </section>
+
             <section>
-                <h2 class="titulo_eventos">Simulado do ENEM</h2>
-                <h3>Descrição</h3>
-                <p class="descricoes">Simulado organizado pelo IFCE <i>campus</i> Maranguape com o apoio do Laboratório de Sistemas de Dados(LSD). O simulado tem o intuito de incentivar os alunos do técnico integrado do campus a treinarem os seus conhecimentos, com a finalidade de estarem preparados para o exame definitivo</p>
-                <h3>Inscrições abertas aos</h3>
+                <h2>Simulado do ENEM</h2>
+                <p class="descricoes">Simulado organizado pelo IFCE Campus Maranguape com o apoio do Laboratório de Sistemas de Dados(LSD). O simulado tem o intuito de incentivar os alunos do técnico integrado do campus a treinarem os seus conhecimentos, com a finalidade de estarem preparados para o exame definitivo</p>
+                <p>Inscrições abertas para:</p>
                 <ul>
                     <li>1° ano do Ensino Médio;</li>
                     <li>2° ano do Ensino Médio;</li>
                     <li>3° ano do Ensino Médio.</li>
                 </ul>
-                <h3>Informações</h3>
-                <p class="datas">Data: <b>07/10/2026 e 15/10/2026</b></p>
-                <p>Local: <b>IFCE <i>Campus</i> Maranguape</b></p>
+                <p>Informações</p>
+                <p class="datas">Data: 07/10/2026 e 15/10/2026</p>
+                <p>Local: IFCE Campus Maranguape</p>
                 <a href="http://lsd.maranguape.ifce.edu.br">Site oficial da organização</a>
             </section>
-            <section id="contatos">
+
+            <section id="contato">
                 <h2>Contato</h2>
-                <p>Para entrar em contato conosco e para saber de mais informações sobre esses eventos e outros futuros acesse o nosso <a href="https://www.instagram.com/ifcemaranguape?utm_source=ig_web_button_share_sheet&mdxt=ZDNlZDc0MzIxNw==">instagram</a></p>
+                <p class="descricoes">Para entrar em contato conosco e para saber de mais informações sobre esses eventos e outros futuros acesse o nosso <a href="https://www.instagram.com/ifcemaranguape?utm_source=ig_web_button_share_sheet&mdxt=ZDNlZDc0MzIxNw==">Instagram</a></p>
             </section>
         </main>
     </body>
